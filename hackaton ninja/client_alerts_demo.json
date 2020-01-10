@@ -1,0 +1,19 @@
+{
+  "alerts": [
+    {
+      "product": "Seguro",
+      "name": "Seguro de coche",
+      "date": "23/10/2019"
+    },
+    {
+      "product": "Ahorro",
+      "name": "Depósito a 15 meses",
+      "date": "19/10/2019"
+    },
+    {
+      "product": "Seguro",
+      "name": "Seguro de hogar",
+      "date": "20/10/2019"
+    }
+  ]
+}

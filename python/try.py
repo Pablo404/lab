@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Oct 25 17:52:36 2019
+
+@author: e052945
+"""
+
+# Scatter Plot Matrix
+import matplotlib.pyplot as plt
+import pandas
+from pandas.plotting import scatter_matrix
+url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
+names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+data = pandas.read_csv(url, names=names)
+scatter_matrix(data)
+plt.show()

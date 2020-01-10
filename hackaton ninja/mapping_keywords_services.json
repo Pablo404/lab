@@ -1,0 +1,25 @@
+[
+    {
+      "keyword": "coche",
+      "service": "Seguro de Coche",
+    },
+	{
+      "keyword": "moto",
+      "service": "Seguro de Moto",
+    },
+    {
+      "keyword": "perro",
+      "service": "Seguro de Mascota",
+    },
+    {
+      "keyword": "ahorro",
+      "service": "Depósito",
+    },
+	{
+      "keyword": "vuelo",
+      "service": "Seguro de Viaje",
+    },{
+      "keyword": "alquiler",
+      "service": "Hipoteca",
+    }
+ ]

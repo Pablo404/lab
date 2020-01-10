@@ -1,0 +1,24 @@
+{
+  "suggestions": [
+    {
+      "product": "Ahorro",
+      "name": "Depósito a 15 meses",
+      "parameter": "Interés 2,1%"
+    },
+    {
+      "product": "Seguro",
+      "name": "Seguro de viaje",
+      "parameter": "150€"
+    },
+    {
+      "product": "Seguro",
+      "name": "Seguro de coche",
+      "parameter": "250€/año"
+    },
+    {
+      "product": "Hipoteca",
+      "name": "Hipoteca a tipo fijo",
+      "parameter": "Tipo 1,6%"
+    }
+  ]
+}
