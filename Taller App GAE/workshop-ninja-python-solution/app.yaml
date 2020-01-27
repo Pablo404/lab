@@ -1,0 +1,43 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+# TODO: Indicar aquí el UID del usuario en minúscula
+service: <uid>
+
+# [START handlers]
+handlers:
+- url: /$
+  static_files: www/index.html
+  upload: www/index.html
+  application_readable: True
+  secure: always
+  login: required
+
+- url: /(.*\.(html|js|css|svg|json|png|jpg|gif|map|woff|ttf|ico))$
+  static_files: www/\1
+  upload: www/.*\.(html|js|css|svg|json|png|jpg|gif|map|woff|ttf|ico)
+  application_readable: True
+  secure: always
+  login: required
+
+- url: /.*
+  script: main.app
+  login: required
+  secure: always
+# [END handlers]
+
+# [START libraries]
+# webapp2: Marco de trabajo web ligero de Python
+# werkzeug: Biblioteca de herramientas de WSGI
+# ujon: serializa a json las respuestas de los servicios
+libraries:
+- name: webapp2
+  version: latest
+- name: werkzeug
+  version: latest
+- name: ujson
+  version: '1.35'
+# [END libraries]
+
+
+

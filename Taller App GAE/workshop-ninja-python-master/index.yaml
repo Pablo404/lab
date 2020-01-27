@@ -1,0 +1,33 @@
+indexes:
+
+- kind: Ninja
+  ancestor: no
+  properties:
+  - name: email
+    direction: asc
+  - name: date
+    direction: desc
+
+- kind: Ninja
+  ancestor: no
+  properties:
+  - name: department
+    direction: asc
+  - name: date
+    direction: desc
+
+- kind: Mooc
+  ancestor: no
+  properties:
+  - name: ninja_id
+    direction: asc
+  - name: date
+    direction: asc
+
+- kind: Ninja
+  ancestor: no
+  properties:
+  - name: building
+    direction: asc
+  - name: date
+    direction: asc

@@ -1,0 +1,27 @@
+indexes:
+
+- kind: Ninja
+  ancestor: no
+  properties:
+  - name: email
+    direction: asc
+  - name: date
+    direction: desc
+
+- kind: Ninja
+  ancestor: no
+  properties:
+  - name: department
+    direction: asc
+  - name: date
+    direction: desc
+
+- kind: Mooc
+  ancestor: no
+  properties:
+  - name: ninja_id
+    direction: asc
+  - name: date
+    direction: asc
+
+# TODO: Crear nuevo indice en entidad Ninja para poder buscar por edificio y fecha de manera ascendente
